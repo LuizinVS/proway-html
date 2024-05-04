@@ -6,29 +6,31 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="get">
     <span>
         Descubra que presidente você seria:
     </span>
     <div>
         <label for="campo-texto">Nome</label>   
-            <input type="nome" name="tel" id="campo-texto">
+            <input type="nome" name="tel" id="campo-texto" required="required">
         </div>
     <div>
         <label for="campo-tel">Telefone</label>   
-            <input type="tel" name="tel" id="campo-tel">
+            <input type="tel" name="tel" id="campo-tel" required="required">
         </div>
         <div>
         <label for="campo-num">Endereço</label>   
-                <input type="num" name="tel" id="campo-num">
+                <input type="num" name="tel" id="campo-num" required="required">
     </div>
     <div>
         <label for="campo-data">Horário de Brásilia</label>   
-            <input type="datetime-local" name="date" id="campo-data">
+            <input type="datetime-local" name="date" id="campo-data" required="requiired">
         </div>
         
 
             <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThkAdc_sWiiWAPGQlI7PLby-7xnwOrfjTA0wADUgrMQg&s"
             width = 100>
-        
+            <button type="submit">Confirmar</button>
+        </form>
 </body>
 </html>

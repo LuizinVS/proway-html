@@ -6,26 +6,28 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="get">
     <div>
         <Label for=campo-texto>Nome</Label>
-        <input type="text"name="nome" id="campo-texto">
+        <input type="text"name="nome" id="campo-texto" required="required">
     </div>
     <div>
         <Label for=campo-number>Idade</Label>
-        <input type="number"name="num" id="campo-number">
+        <input type="number"name="num" id="campo-number" required="required">
     </div>
     <div>
         <Label for=campo-mes>Mês de Nascimento</Label>
-        <input type="month"name="mes" id="campo-mes">
+        <input type="month"name="mes" id="campo-mes" required="required">
     </div>
     <div>
         <Label for=campo-dia>dia de nascimento</Label>
-        <input type="number"name="dia" id="campo-dia">
+        <input type="number"name="dia" id="campo-dia" required="required">
     </div>
     <div>
         <Label for=campo-semana>Semana de nascimento</Label>
-        <input type="week"name="semana" id="campo-semana">
+        <input type="week"name="semana" id="campo-semana" required="required">
     </div>
-    
+    <button type="submit">Confirmar</button>
+</form>
     </body>
 </html>

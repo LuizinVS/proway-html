@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+    <div>
+        <label for="campo-nome">Digite seu nome</label>
+        <input type="text" name="nome" id="campo-nome" required="required">
+    </div>
+    <div>
+        <label for="campo-forma">Escolha uma forma geométrica</label>
+        <select id="campo-forma" required="required" name="forma">
+            <option selected="select" disabled="disabled">Selecione uma opção</option>
+            <option value="1">Triangulo</option>
+            <option value="2">Quadrado</option>
+            <option value="3">Retangulo</option>
+            <option value="4">Hexagono</option>
+        </select>
+
+    </div>
+    <div>
+        <label for="campo-cor">Escolha sua cor favorita</label>
+        <input type="color" name="cor" id="campo-cor" required="required">
+    </div>
+    <div>
+        <label for="campo-foto">Mande uma foto sua</label>
+        <input type="file" id="campo-foto" 
+        accept="image/png, image/jpg, image/gif, image/webp, image/jpeg"
+        name="imagem" required="required">
+    </div>
+    <button type="submit">Confirmar</button>
+</form>
+</body>
+</html>

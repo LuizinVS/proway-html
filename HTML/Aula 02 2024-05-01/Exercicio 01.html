@@ -6,22 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="get">
     <span>
         GANHE UM IPHONE GRÁTIS, PREENCHA OS DADOS ABAIXO:
     </span>
     <div>
     <label for="campo-texto">Nome</label>   
-        <input type="text" name="nome" id="campo-texto">
+        <input type="text" name="nome" id="campo-texto" required="required">
     </div>
 
     <div>
         <label for="campo-email">Email</label>
-        <input type="email" name="email" id="campo-email">
+        <input type="email" name="email" id="campo-email" required="required">
     </div>
     <div>
         <label for="campo-senha">Senha</label>
-        <input type="password" name="senha" id="campo-senha ">
+        <input type="password" name="senha" id="campo-senha " required="required">
     </div>
     <img src ="https://i.ytimg.com/vi/8n5dISlQWJE/sddefault.jpg">
+    <button type="submit">Confirmar</button>
+</form>
 </body>
 </html>
