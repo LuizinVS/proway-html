@@ -1,0 +1,14 @@
+.botao{
+    text-decoration: none;
+    background-color: tomato;
+    width:  100px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
+
+.botao:hover{
+    background-color: red;
+    opacity: 0.8;
+}

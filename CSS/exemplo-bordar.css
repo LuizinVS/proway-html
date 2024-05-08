@@ -1,0 +1,23 @@
+.borda-topo{
+    border-top-width: 1px;
+    border-top-color: yellow;
+    border-top-style: solid;
+}
+
+.borda-direita{
+    border-right-width: 4px;
+    border-right-color: red;
+    border-right-style: solid;
+}
+
+.borda-base{
+    border-bottom-width: 3px;
+    border-bottom-color: blueviolet;
+    border-bottom-style: solid;
+}
+
+.borda-esquerda{
+    border-left-width: 2px;
+    border-left-color:bisque;
+    border-left-style: solid;
+}
