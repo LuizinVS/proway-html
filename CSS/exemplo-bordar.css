@@ -1,3 +1,7 @@
+.borda-topo, .borda-direita, .borda-base, .borda-esquerda, .borda-completa, .borda-dashed,  .borda-double, .borda-dotted{
+    display: block;
+}
+
 .borda-topo{
     border-top-width: 1px;
     border-top-color: yellow;
@@ -20,4 +24,29 @@
     border-left-width: 2px;
     border-left-color:bisque;
     border-left-style: solid;
+}
+
+.borda-completa{
+    border-top: 3px solid rgb(84, 74, 134);
+    border-right: 3px solid rgb(45, 21, 161);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(215, 78, 19);
+}
+.borda-dashed{
+    border-top: 3px dashed rgb(106, 134, 74);
+    border-right: 3px dashed rgb(255, 0, 0);
+    border-bottom: 3px dashed rgb(0, 0, 0);
+    border-left: 3px dashed rgb(215, 78, 19);
+}
+.borda-dotted{
+    border-top: 3px dotted rgb(84, 74, 134);
+    border-right: 3px dotted rgb(45, 21, 161);
+    border-bottom: 3px dotted rgb(0, 0, 0);
+    border-left: 3px dotted rgb(215, 78, 19);
+}
+.borda-double{
+    border-top: 3px double rgb(84, 74, 134);
+    border-right: 3px double rgb(45, 21, 161);
+    border-bottom: 3px double rgb(0, 0, 0);
+    border-left: 3px double rgb(215, 78, 19);
 }
