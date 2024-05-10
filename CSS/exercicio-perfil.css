@@ -1,0 +1,59 @@
+.teste{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.div{
+    border: solid 2px;
+    border-radius:50px;        
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+    
+}
+
+
+body{
+    background-color: #feecc8;
+    
+}
+
+.idade{
+    margin-top: 3px;
+    margin-bottom: 10px;
+
+    
+}
+.email
+{
+   
+    border: solid;
+    border-radius: 25px;
+    width: 200px;
+    margin: auto;
+ 
+    
+}
+
+.whats{ 
+    margin-top: 9px;
+    font-size: 25px;
+}
+
+.fonte{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.fontes{
+    font-size: 22px;
+    
+}
+
+.linkedin{
+    margin-bottom: 10px;
+}
