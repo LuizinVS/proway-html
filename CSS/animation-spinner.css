@@ -1,0 +1,22 @@
+.carregamento{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    animation-name: spiiner;
+    animation-duration: 2s;
+    animation-direction: altrrnate;
+    animation-iteration-count: infinite;
+    animation: spinner 2s alternate infinite;
+}
+
+@keyframes spinner{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(180deg);
+    }
+}

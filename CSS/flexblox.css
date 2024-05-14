@@ -1,0 +1,15 @@
+.flexbox div{
+    background-color: darkkhaki;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+
+
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}

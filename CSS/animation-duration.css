@@ -1,0 +1,16 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+@keyframes animation{
+    from{
+        left: 0px;}
+        to{
+            left: 90%;
+        }
+    }
