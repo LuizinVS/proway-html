@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+}
+
+#imagem{
+    height: 50px;
+
+}
+
+header{
+    display: flex;
+    background-color: #2570c4;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 350px;
+}
+
+header nav ul li:hover{
+    transition: 0.3s;
+    scale: 1.1;
+    cursor: pointer
+}
+
+.fundo{
+    background-color: #f2f0eb;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens{
+    height: 250px;
+}
+
+.card{
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    border: solid black 4px;
+    height: 360px;
+    background-color: black;
+    color: white;
+}
+
+button{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2570c4;
+    color: white;
+    
+}
